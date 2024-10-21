@@ -50,7 +50,7 @@ $ npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 You can refer to the [Next.js upgrade documentation](https://nextjs.org/docs/pages/building-your-application/upgrading) for more details.
 
 
-### Run Project in development mode:
+### Run the Project in Development Mode::
 
 ```sh
 $ npm run dev

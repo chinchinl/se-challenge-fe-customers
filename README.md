@@ -60,7 +60,7 @@ With is command file will be compiled and it will be loaded on local server [htt
 
 I’m particularly proud of the approach I took for **data fetching** and **form validation**. For API interactions, I used `axios`, which simplifies handling asynchronous calls and improves code readability. For the edit form, I implemented an intermediate error message that appears when required fields are left empty, providing immediate feedback to users and enhancing the overall user experience.
 
-I also took care to structure the project in a way that facilitates scalability. Key components, such as `CustomerList`, `CustomerEditForm` and `CustomerActionMenu`, are separated into individual modules, making the code more maintainable and easier to extend in future developments. Additionally, I organized the CSS styles into dedicated directories (`components`, `ui`, and `base`), ensuring the project is ready for future styling updates and can easily accommodate design refinements. This separation of concerns promotes both clarity and flexibility as the application grows.
+I also took care to **structure the project in a way that facilitates scalability**. Key components, such as `CustomerList`, `CustomerEditForm` and `CustomerActionMenu`, are separated into individual modules, making the code more maintainable and easier to extend in future developments. Additionally, I **organized the CSS styles into dedicated directories** (`components`, `ui`, and `base`), ensuring the project is ready for future styling updates and can easily accommodate design refinements. This separation of concerns promotes both clarity and flexibility as the application grows.
 
 ## Requirements
 

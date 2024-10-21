@@ -29,12 +29,6 @@ Feel free to email [dev.careers@waveapps.com](dev.careers@waveapps.com) if you h
 
 Imagine that this is the early days of Wave's history, and that **we are prototyping a new invoicing system** in Canada. Our users are small business owners who need to generate professional-looking invoices to send to their customers. For this code challenge, build out **the settings page where users (business owners) can manage their customers' information**. Our prototype will be entirely API-driven and use a Javascript single-page app as the interface to our APIs.
 
-## What I'm proud of
-
-I’m particularly proud of the approach I took for **data fetching** and **form validation**. For API interactions, I used `axios`, which simplifies handling asynchronous calls and improves code readability. For the edit form, I implemented an intermediate error message that appears when required fields are left empty, providing immediate feedback to users and enhancing the overall user experience.
-
-I also took care to structure the project in a way that facilitates scalability. Key components, such as `CustomerList`, `CustomerEditForm` and `CustomerActionMenu`, are separated into individual modules, making the code more maintainable and easier to extend in future developments. Additionally, I organized the CSS styles into dedicated directories (`components`, `ui`, and `base`), ensuring the project is ready for future styling updates and can easily accommodate design refinements. This separation of concerns promotes both clarity and flexibility as the application grows.
-
 ## Getting Started
 
 Make sure if NODEJS is installed on your computer.
@@ -55,13 +49,18 @@ $ npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 check out [here](https://nextjs.org/docs/pages/building-your-application/upgrading)
 
 
-
 ### Run Project in development mode:
 
 ```sh
 $ npm run dev
 ```
 With is command file will be compiled and it will be loaded on local server [http://localhost:3000](http://localhost:3000).
+
+## What I'm proud of
+
+I’m particularly proud of the approach I took for **data fetching** and **form validation**. For API interactions, I used `axios`, which simplifies handling asynchronous calls and improves code readability. For the edit form, I implemented an intermediate error message that appears when required fields are left empty, providing immediate feedback to users and enhancing the overall user experience.
+
+I also took care to structure the project in a way that facilitates scalability. Key components, such as `CustomerList`, `CustomerEditForm` and `CustomerActionMenu`, are separated into individual modules, making the code more maintainable and easier to extend in future developments. Additionally, I organized the CSS styles into dedicated directories (`components`, `ui`, and `base`), ensuring the project is ready for future styling updates and can easily accommodate design refinements. This separation of concerns promotes both clarity and flexibility as the application grows.
 
 ## Requirements
 

@@ -32,14 +32,14 @@ Imagine that this is the early days of Wave's history, and that **we are prototy
 
 ## Getting Started
 
-Make sure if Node.js is installed on your computer.
+Make sure Node.js is installed on your computer.
 
 ### Install  Dependencies:
 
 ```sh
 $ npm install
 ```
-It will create `node_module` folder in this all dependency files will be install with this command.
+This command will create a node_modules folder and install all the necessary dependencies.
 
 ### Update Next.js:
 
@@ -47,7 +47,7 @@ It will create `node_module` folder in this all dependency files will be install
 $ npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
-check out [here](https://nextjs.org/docs/pages/building-your-application/upgrading)
+You can refer to the [Next.js upgrade documentation](https://nextjs.org/docs/pages/building-your-application/upgrading) for more details.
 
 
 ### Run Project in development mode:
@@ -55,13 +55,13 @@ check out [here](https://nextjs.org/docs/pages/building-your-application/upgradi
 ```sh
 $ npm run dev
 ```
-With is command file will be compiled and it will be loaded on local server [http://localhost:3000](http://localhost:3000).
+This will compile the project and launch it on the local server at [http://localhost:3000](http://localhost:3000).
 
 ## What I'm proud of
 
-I’m particularly proud of the approach I took for **data fetching** and **form validation**. For API interactions, I used `axios`, which simplifies handling asynchronous calls and improves code readability. For the edit form, I implemented an intermediate error message that appears when required fields are left empty, providing immediate feedback to users and enhancing the overall user experience.
+I’m particularly proud of the **approach I took for data fetching and form validation**. I used `axios` for API interactions, which simplifies asynchronous operations and makes the code more readable. For the edit form, I implemented an **intermediate error message** that appears when required fields are left empty. This provides immediate feedback, enhancing the user experience by ensuring input errors are quickly identified.
 
-I also took care to **structure the project in a way that facilitates scalability**. Key components, such as `CustomerList`, `CustomerEditForm` and `CustomerActionMenu`, are separated into individual modules, making the code more maintainable and easier to extend in future developments. Additionally, I **organized the CSS styles into dedicated directories** (`components`, `ui`, and `base`), ensuring the project is ready for future styling updates and can easily accommodate design refinements. This separation of concerns promotes both clarity and flexibility as the application grows.
+I also focused on **structuring the project for scalability and maintainability**. Key components—such as `CustomerList`, `CustomerEditForm`, and `CustomerActionMenu` — are modularized to keep the codebase organized and easier to extend. Additionally, I **organized CSS styles into dedicated directories** (`components`, `ui`, and `base`), which ensures that future styling updates can be applied efficiently. This separation of concerns not only makes the project more maintainable but also promotes clarity and flexibility as the application evolves.
 
 ## Requirements
 

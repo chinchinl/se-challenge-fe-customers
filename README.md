@@ -32,7 +32,20 @@ Imagine that this is the early days of Wave's history, and that **we are prototy
 
 ## Getting Started
 
-Make sure Node.js is installed on your computer.
+Make sure Node.js is installed on your computer. To get started with this project, you'll need to clone the Git bundle provided. Follow the instructions below:
+
+### Clone the Bundle
+Create a new directory and use the following command to clone the Git bundle:
+```sh
+$ git clone Chinmy_Leung_front_end.bundle Chinmy_Leung_front_end_project
+```
+
+### Navigate to the Project Directory
+Change to the newly created project directory:
+
+```sh
+$ cd Chinmy_Leung_front_end_project
+```
 
 ### Install  Dependencies:
 

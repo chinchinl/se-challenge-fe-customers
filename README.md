@@ -29,19 +29,32 @@ Feel free to email [dev.careers@waveapps.com](dev.careers@waveapps.com) if you h
 Imagine that this is the early days of Wave's history, and that **we are prototyping a new invoicing system** in Canada. Our users are small business owners who need to generate professional-looking invoices to send to their customers. For this code challenge, build out **the settings page where users (business owners) can manage their customers' information**. Our prototype will be entirely API-driven and use a Javascript single-page app as the interface to our APIs.
 
 ## Getting Started
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+Make sure if NODEJS is installed on your computer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Install  Dependencies:
+
+```sh
+$ npm install
 ```
+It will create `node_module` folder in this all dependency files will be install with this command.
+
+### Update Next.js:
+
+```sh
+$ npm i next@latest react@latest react-dom@latest eslint-config-next@latest
+```
+
+check out [here](https://nextjs.org/docs/pages/building-your-application/upgrading)
+
+
+
+### Run Project in development mode:
+
+```sh
+$ npm run dev
+```
+With is command file will be compiled and it will be loaded on local server [http://localhost:3000](http://localhost:3000).
 
 ## Requirements
 

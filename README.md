@@ -39,7 +39,7 @@ Make sure Node.js is installed on your computer.
 ```sh
 $ npm install
 ```
-This command will create a node_modules folder and install all the necessary dependencies.
+This command will create a `node_modules` folder and install all the necessary dependencies.
 
 ### Update Next.js:
 

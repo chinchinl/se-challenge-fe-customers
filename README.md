@@ -14,6 +14,7 @@ Feel free to email [dev.careers@waveapps.com](dev.careers@waveapps.com) if you h
 **Table of Contents**
 
 - [Project Background](#project-background)
+- [Getting Started](#getting-started)
 - [Requirements](#requirements)
   - [Functional Requirements](#functional-requirements)
   - [Technical requirements](#technical-requirements)
@@ -26,6 +27,21 @@ Feel free to email [dev.careers@waveapps.com](dev.careers@waveapps.com) if you h
 ## Project Background
 
 Imagine that this is the early days of Wave's history, and that **we are prototyping a new invoicing system** in Canada. Our users are small business owners who need to generate professional-looking invoices to send to their customers. For this code challenge, build out **the settings page where users (business owners) can manage their customers' information**. Our prototype will be entirely API-driven and use a Javascript single-page app as the interface to our APIs.
+
+## Getting Started
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 ## Requirements
 
